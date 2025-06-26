@@ -5,9 +5,8 @@
   healthchecks.config.max-jobs = 2; # to see something on the example.gif
 
   imports = [
-    ./gitea.nix
+    ./twenty.nix
     ./nextcloud.nix
-    ./syncthing.nix
   ];
 
 }
